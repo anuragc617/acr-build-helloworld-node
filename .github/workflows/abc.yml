@@ -1,0 +1,7 @@
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        ehco "hello"
